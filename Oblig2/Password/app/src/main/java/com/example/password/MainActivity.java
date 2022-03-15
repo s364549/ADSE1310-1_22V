@@ -18,12 +18,5 @@ public class MainActivity extends AppCompatActivity {
 
         WebSettings webSettings = browser.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setDomStorageEnabled(true);
-        webSettings.setLoadWithOverviewMode(true);
-        webSettings.setUseWideViewPort(true);
-        webSettings.setBuiltInZoomControls(true);
-        webSettings.setDisplayZoomControls(false);
-        webSettings.setSupportZoom(true);
-        webSettings.setDefaultTextEncodingName("utf-8");
     }
 }
